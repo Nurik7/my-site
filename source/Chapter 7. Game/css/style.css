@@ -1,0 +1,14 @@
+body {
+    background-image: url('../img/hero-bg.jpg');
+    position: relative;
+    margin: auto auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.page__text {
+    font-size: 80px;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    margin-top: 40vh;
+}
