@@ -59,21 +59,26 @@
         <h3>
           Мои навыки
           <dl class="skills-list">
-            <dt class="skill-c">C</dt>
+            <div class="skill-container">
+              <dt class="skill-c">C</dt><span class="skill-text">Кому вообще нужен С в 2к21?</span>
+            </div>
             <dd class="level">
               <div style="width: 10%">10%</div>
             </dd>
-            <dt class="skill-js">JavaScript</dt>
+            <div class="skill-container">
+              <dt class="skill-js">JavaScript</dt><span class="skill-text">Я смог разобраться с прототипами,
+                конструкторами и this, я уже джун?</span>
+            </div>
             <dd class="level">
-              <div style="width: 5%">5%</div>
+              <div style="width: 80%">75%</div>
             </dd>
             <dt class="skill-html">HTML</dt>
             <dd class="level">
-              <div style="width: 60%">60%</div>
+              <div style="width: 95%">95%</div>
             </dd>
             <dt class="skill-css">CSS</dt>
             <dd class="level">
-              <div style="width: 40%">40%</div>
+              <div style="width: 95%">95%</div>
             </dd>
           </dl>
         </h3>
@@ -85,18 +90,49 @@
   <div class="container">
     <section class="portfolio">
       <h2 class="subheading">Мои работы</h2>
-      <figure class="project-image">
+      <!-- <figure class="project-image">
         <img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
-      </figure>
+      </figure> -->
 
-      <h3>Магазин товаров для дома</h3>
-      <p>Мой первый сайт.</p>
-      <a href="source/project-gloevk/index.html" class="button"> Открыть страницу </a>
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
-      <h3>Ох, кстати!</h3>
-      <p>Я тут недавно прошел онлайн марафон на ютубе и сверстал свой первый макет. Ссылка визу, если интересно)</p>
-      <a href="source/joomhost/index.html" class="button"> Открыть страницу </a>
+      <div class="project__item">
+        <h3>Магазин товаров для дома</h3>
+        <p>Мой первый сайт.</p>
+        <a href="./source/project-gloevk/index.html" class="button"> Открыть страницу </a>
+      </div>
+      <div class="project__item">
+        <h3>Ох, кстати!</h3>
+        <p>Я тут недавно прошел онлайн марафон на ютубе и сверстал свой первый макет. Ссылка визу, если интересно)</p>
+        <a href="./source/joomhost/index.html" class="button"> Открыть страницу </a>
+      </div>
+      <div class="project__item">
+        <h3>Тут новый сверстанный макет пришел</h3>
+        <p>Решил я значит макет который у меня не получался по видеоуроку сверстать сам. И что в итоге? Получилось даже
+          лучше! Где-то 90% этого макета я сделал сам (гордо заявляю об этом)</p>
+        <a href="./source/free-psd/index.html" class="button"> Открыть страницу </a>
+      </div>
+      <div class="project__item">
+        <h3>Дзинь-дзинь!</h3>
+        <p>Сижу я значит дня три назад в той группе в тг по верстке. Читаю чат, и тут один парень кидает макет в группу
+          и
+          спрашивает "ну как вам люди?". Ну и кто-то ответил, что этот макет не очень то и легкий, неплохо что ты его
+          сделал. И тут мне стало интересно, смогу ли я его сам сверстать? Ответ : Да, от и до, сверстал полностью сам.
+          Без какой-либо помощи. Горд как кавказец после этого. ауф.</p>
+        <a href="./source/home-blog/index.html" class="button"> Открыть страницу </a>
+      </div>
+      <div class="project__item">
+        <h3>console.log("I'm the king of JS!!!");</h3>
+        <p>Итак, всем привет, давно не виделись! А все почему? Потому что я учил JS! Да-да, самый настоящий язык
+          программирования (тут должна быть шутка о том, что JS не язык программирования). Экхм... Так вот, учил я
+          значит по книгам, по видосам, по книгам еще раз, и еще раз по видосам. И я еще не закончил учебу, скорее
+          только начал понимать что к чему в этой учебе, лол. У меня тут есть несколько страниц с готовыми играми, которые
+          я сделал по примерам из книг и видео. Гляньте если интересно)</p>
+        <a href="./source/Chapter 7. Game/index.html" class="button"> Тыц </a>
+        <a href="./source/Chapter 11. Find the Buried Treasure/index.html" class="button"> Туц </a>
+        <a href="./source/Chapter 13. Canvas Element/index.html" class="button">это
+          лучше открывать в мозилле</a>
+        <a href="./source/Chapter 16. Snake the Game. Part I/index.html" class="button">тац</a>
+        <a href="./source/Chapter 8. Making an app/battleship.html" class="button">тыдыц</a>
+      </div>
     </section>
   </div>
 

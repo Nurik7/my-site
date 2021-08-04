@@ -26,8 +26,7 @@ a {
   padding: 32px 0 32px;
 }
 
-.page-header .container,
-.page-footer .container {
+.page-header .container, .page-footer .container {
   max-width: 1408px;
   text-align: right;
 }
@@ -86,14 +85,14 @@ a {
   margin: 0 0 32px;
   text-align: center;
 }
+
 .user-image img {
   border: 1px solid #000;
   border-radius: 10%;
   margin: 0 15px 0;
 }
 
-.intro h3,
-.portfolio h3 {
+.intro h3, .portfolio h3 {
   margin: 0 0 12px;
   font-size: 28px;
   line-height: 40px;
@@ -122,9 +121,11 @@ a {
 .skill-css {
   background-image: url("img/icon-css-new.svg");
 }
+
 .skill-c {
   background-image: url("img/icon-c.svg");
 }
+
 .skill-js {
   background-image: url("img/icon-js.svg");
 }
@@ -175,9 +176,10 @@ a {
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 7px;
   background-color: #712073;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .page-footer {
@@ -201,4 +203,20 @@ a {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+}
+
+.project__item {
+  border: 2px solid #712073;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.skill-text {
+  font-size: 10px;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-between;
 }
