@@ -1,4 +1,4 @@
-# [The link for mockups | Ссылка на сверстанные макеты](https://nurik7.github.io/my-site/)
+# [The link to the site | Ссылка на страницу сайта](https://nurik7.github.io/my-site/)
 
 ## My Site
 Practicing in making my own site. 
